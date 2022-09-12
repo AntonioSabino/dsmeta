@@ -5,8 +5,8 @@ export default function App() {
   return (
     <>
       <Header />
-      <main>
-        <section id="sales" className="main-container">
+      <main className="main-container">
+        <section id="sales">
           <SalesCard />
         </section>
       </main>

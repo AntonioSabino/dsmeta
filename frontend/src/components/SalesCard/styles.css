@@ -1,8 +1,3 @@
-form {
-  display: flex;
-  flex-direction: column;
-}
-
 .card {
   background-color: #283142;
   border-radius: 10px;
@@ -15,12 +10,12 @@ form {
   margin-bottom: 20px;
 }
 
-.form-control-container {
+.date-control-container {
   margin-bottom: 16px;
   max-width: 300px;
 }
 
-.form-control {
+.date-control {
   width: 100%;
   height: 46px;
   background-color: #1b2531;
