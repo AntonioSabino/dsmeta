@@ -3,8 +3,10 @@ import './styles.css'
 
 export default function NotificationButton() {
   return (
-    <button type='button' className="red-btn">
-      <img src={icon} alt="Notificar" />
-    </button>
+    <div className='red-btn-container'>
+      <button type='button' className="red-btn">
+        <img src={icon} alt="Notificar" />
+      </button>
+    </div>
   )
 }

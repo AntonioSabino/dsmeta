@@ -5,7 +5,11 @@ export default function App() {
   return (
     <>
       <Header />
-
+      <main>
+        <section id="sales" className="main-container">
+          <SalesCard />
+        </section>
+      </main>
     </>
   )
 }
